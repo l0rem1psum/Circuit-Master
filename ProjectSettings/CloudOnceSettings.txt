@@ -1,0 +1,23 @@
+{
+	"AchievementIDs":[],
+	"LeaderboardIDs":[
+		{
+			"InternalID":"Leaderboard",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQAA"
+		},
+		{
+			"InternalID":"AnotherLeaderboard",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQAg"
+		}
+	],
+	"CloudVariables":[],
+	"AppleSupported":false,
+	"GoogleSupported":true,
+	"GoogleAppID":"1058965610378",
+	"GoogleSetupRun":true,
+	"DebugModeEnabled":false,
+	"Version":"2.6.8",
+	"SettingsLocation":"0"
+}
