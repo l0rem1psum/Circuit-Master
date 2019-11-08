@@ -48,15 +48,34 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene(7);
     }
 
+    public void SelectLocalOnlineLeaderboard()
+    {
+        SceneManager.LoadScene(8);
+    }
+
+    public void OnlineLeaderboard()
+    {
+        SceneManager.LoadScene(9);
+    }
+
     public void LoadLevel(int level)
     {
         switch (level)
         {
             case 1:
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene(13);
+                break;
+            case 2:
+                SceneManager.LoadScene(14);
                 break;
             case 3:
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene(10);
+                break;
+            case 4:
+                SceneManager.LoadScene(11);
+                break;
+            case 5:
+                SceneManager.LoadScene(12);
                 break;
         }
     }

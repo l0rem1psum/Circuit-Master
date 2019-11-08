@@ -2,14 +2,104 @@
 	"AchievementIDs":[],
 	"LeaderboardIDs":[
 		{
-			"InternalID":"Leaderboard",
+			"InternalID":"c1",
 			"AppleID":"",
-			"GoogleID":"CgkIir-T-ugeEAIQAA"
+			"GoogleID":"CgkIir-T-ugeEAIQAw"
 		},
 		{
-			"InternalID":"AnotherLeaderboard",
+			"InternalID":"c2",
 			"AppleID":"",
-			"GoogleID":"CgkIir-T-ugeEAIQAg"
+			"GoogleID":"CgkIir-T-ugeEAIQBA"
+		},
+		{
+			"InternalID":"c3",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQBQ"
+		},
+		{
+			"InternalID":"c4",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQBg"
+		},
+		{
+			"InternalID":"c5",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQBw"
+		},
+		{
+			"InternalID":"c6",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQCA"
+		},
+		{
+			"InternalID":"c7",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQCQ"
+		},
+		{
+			"InternalID":"c8",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQCg"
+		},
+		{
+			"InternalID":"c9",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQCw"
+		},
+		{
+			"InternalID":"c10",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQDA"
+		},
+		{
+			"InternalID":"e1",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQDQ"
+		},
+		{
+			"InternalID":"e2",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQDg"
+		},
+		{
+			"InternalID":"e3",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQDw"
+		},
+		{
+			"InternalID":"e4",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQEA"
+		},
+		{
+			"InternalID":"e5",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQEQ"
+		},
+		{
+			"InternalID":"e6",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQEg"
+		},
+		{
+			"InternalID":"e7",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQEw"
+		},
+		{
+			"InternalID":"e8",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQFA"
+		},
+		{
+			"InternalID":"e9",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQFQ"
+		},
+		{
+			"InternalID":"e10",
+			"AppleID":"",
+			"GoogleID":"CgkIir-T-ugeEAIQFg"
 		}
 	],
 	"CloudVariables":[],

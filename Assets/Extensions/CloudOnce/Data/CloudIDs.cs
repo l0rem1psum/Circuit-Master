@@ -27,40 +27,400 @@ namespace CloudOnce
         /// </summary>
         public static class LeaderboardIDs
         {
-            public static string Leaderboard
+            public static string c1
             {
                 get
                 {
 #if UNITY_ANDROID && !UNITY_EDITOR
 #if CLOUDONCE_GOOGLE
-                    return "CgkIir-T-ugeEAIQAA";
+                    return "CgkIir-T-ugeEAIQAw";
 #else
                     return string.Empty;
 #endif
 #elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
                     return "";
 #elif UNITY_EDITOR
-                    return "Leaderboard";
+                    return "c1";
 #else
                     return string.Empty;
 #endif
                 }
             }
 
-            public static string AnotherLeaderboard
+            public static string c2
             {
                 get
                 {
 #if UNITY_ANDROID && !UNITY_EDITOR
 #if CLOUDONCE_GOOGLE
-                    return "CgkIir-T-ugeEAIQAg";
+                    return "CgkIir-T-ugeEAIQBA";
 #else
                     return string.Empty;
 #endif
 #elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
                     return "";
 #elif UNITY_EDITOR
-                    return "AnotherLeaderboard";
+                    return "c2";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string c3
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQBQ";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "c3";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string c4
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQBg";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "c4";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string c5
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQBw";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "c5";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string c6
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQCA";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "c6";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string c7
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQCQ";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "c7";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string c8
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQCg";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "c8";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string c9
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQCw";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "c9";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string c10
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQDA";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "c10";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e1
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQDQ";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e1";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e2
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQDg";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e2";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e3
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQDw";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e3";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e4
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQEA";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e4";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e5
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQEQ";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e5";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e6
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQEg";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e6";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e7
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQEw";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e7";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e8
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQFA";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e8";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e9
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQFQ";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e9";
+#else
+                    return string.Empty;
+#endif
+                }
+            }
+
+            public static string e10
+            {
+                get
+                {
+#if UNITY_ANDROID && !UNITY_EDITOR
+#if CLOUDONCE_GOOGLE
+                    return "CgkIir-T-ugeEAIQFg";
+#else
+                    return string.Empty;
+#endif
+#elif (UNITY_IOS || UNITY_TVOS) && !UNITY_EDITOR
+                    return "";
+#elif UNITY_EDITOR
+                    return "e10";
 #else
                     return string.Empty;
 #endif

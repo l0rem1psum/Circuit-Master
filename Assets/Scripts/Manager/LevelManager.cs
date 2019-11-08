@@ -3,14 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
     public BitDisplay bitDisplay;
     public float timeStart = 0;
     public TextMeshProUGUI text;
+    public DatabaseManager databaseManager;
 
     private bool timerActive = true;
+    private bool recordSaved = false;
 
     // Start is called before the first frame update
     void Start()
@@ -48,6 +51,11 @@ public class LevelManager : MonoBehaviour
         Debug.Log(congText.Length);
         congText[1].text = "You complete the level in " + timeStart.ToString("F2") + " seconds.";
 
+        if (!recordSaved) {
+            databaseManager.SetRecord(SceneManager.GetActiveScene().buildIndex, timeStart);
+            recordSaved = true;
+        }
+        
 
         win.SetActive(true);
     }

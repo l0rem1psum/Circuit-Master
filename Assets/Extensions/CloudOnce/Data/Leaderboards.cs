@@ -14,34 +14,304 @@ namespace CloudOnce
     /// </summary>
     public static class Leaderboards
     {
-        private static readonly UnifiedLeaderboard s_leaderboard = new UnifiedLeaderboard("Leaderboard",
+        private static readonly UnifiedLeaderboard s_c1 = new UnifiedLeaderboard("c1",
 #if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
             ""
 #elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
-            "CgkIir-T-ugeEAIQAA"
+            "CgkIir-T-ugeEAIQAw"
 #else
-            "Leaderboard"
+            "c1"
 #endif
             );
 
-        public static UnifiedLeaderboard Leaderboard
+        public static UnifiedLeaderboard c1
         {
-            get { return s_leaderboard; }
+            get { return s_c1; }
         }
 
-        private static readonly UnifiedLeaderboard s_anotherLeaderboard = new UnifiedLeaderboard("AnotherLeaderboard",
+        private static readonly UnifiedLeaderboard s_c2 = new UnifiedLeaderboard("c2",
 #if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
             ""
 #elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
-            "CgkIir-T-ugeEAIQAg"
+            "CgkIir-T-ugeEAIQBA"
 #else
-            "AnotherLeaderboard"
+            "c2"
 #endif
             );
 
-        public static UnifiedLeaderboard AnotherLeaderboard
+        public static UnifiedLeaderboard c2
         {
-            get { return s_anotherLeaderboard; }
+            get { return s_c2; }
+        }
+
+        private static readonly UnifiedLeaderboard s_c3 = new UnifiedLeaderboard("c3",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQBQ"
+#else
+            "c3"
+#endif
+            );
+
+        public static UnifiedLeaderboard c3
+        {
+            get { return s_c3; }
+        }
+
+        private static readonly UnifiedLeaderboard s_c4 = new UnifiedLeaderboard("c4",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQBg"
+#else
+            "c4"
+#endif
+            );
+
+        public static UnifiedLeaderboard c4
+        {
+            get { return s_c4; }
+        }
+
+        private static readonly UnifiedLeaderboard s_c5 = new UnifiedLeaderboard("c5",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQBw"
+#else
+            "c5"
+#endif
+            );
+
+        public static UnifiedLeaderboard c5
+        {
+            get { return s_c5; }
+        }
+
+        private static readonly UnifiedLeaderboard s_c6 = new UnifiedLeaderboard("c6",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQCA"
+#else
+            "c6"
+#endif
+            );
+
+        public static UnifiedLeaderboard c6
+        {
+            get { return s_c6; }
+        }
+
+        private static readonly UnifiedLeaderboard s_c7 = new UnifiedLeaderboard("c7",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQCQ"
+#else
+            "c7"
+#endif
+            );
+
+        public static UnifiedLeaderboard c7
+        {
+            get { return s_c7; }
+        }
+
+        private static readonly UnifiedLeaderboard s_c8 = new UnifiedLeaderboard("c8",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQCg"
+#else
+            "c8"
+#endif
+            );
+
+        public static UnifiedLeaderboard c8
+        {
+            get { return s_c8; }
+        }
+
+        private static readonly UnifiedLeaderboard s_c9 = new UnifiedLeaderboard("c9",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQCw"
+#else
+            "c9"
+#endif
+            );
+
+        public static UnifiedLeaderboard c9
+        {
+            get { return s_c9; }
+        }
+
+        private static readonly UnifiedLeaderboard s_c10 = new UnifiedLeaderboard("c10",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQDA"
+#else
+            "c10"
+#endif
+            );
+
+        public static UnifiedLeaderboard c10
+        {
+            get { return s_c10; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e1 = new UnifiedLeaderboard("e1",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQDQ"
+#else
+            "e1"
+#endif
+            );
+
+        public static UnifiedLeaderboard e1
+        {
+            get { return s_e1; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e2 = new UnifiedLeaderboard("e2",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQDg"
+#else
+            "e2"
+#endif
+            );
+
+        public static UnifiedLeaderboard e2
+        {
+            get { return s_e2; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e3 = new UnifiedLeaderboard("e3",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQDw"
+#else
+            "e3"
+#endif
+            );
+
+        public static UnifiedLeaderboard e3
+        {
+            get { return s_e3; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e4 = new UnifiedLeaderboard("e4",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQEA"
+#else
+            "e4"
+#endif
+            );
+
+        public static UnifiedLeaderboard e4
+        {
+            get { return s_e4; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e5 = new UnifiedLeaderboard("e5",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQEQ"
+#else
+            "e5"
+#endif
+            );
+
+        public static UnifiedLeaderboard e5
+        {
+            get { return s_e5; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e6 = new UnifiedLeaderboard("e6",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQEg"
+#else
+            "e6"
+#endif
+            );
+
+        public static UnifiedLeaderboard e6
+        {
+            get { return s_e6; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e7 = new UnifiedLeaderboard("e7",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQEw"
+#else
+            "e7"
+#endif
+            );
+
+        public static UnifiedLeaderboard e7
+        {
+            get { return s_e7; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e8 = new UnifiedLeaderboard("e8",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQFA"
+#else
+            "e8"
+#endif
+            );
+
+        public static UnifiedLeaderboard e8
+        {
+            get { return s_e8; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e9 = new UnifiedLeaderboard("e9",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQFQ"
+#else
+            "e9"
+#endif
+            );
+
+        public static UnifiedLeaderboard e9
+        {
+            get { return s_e9; }
+        }
+
+        private static readonly UnifiedLeaderboard s_e10 = new UnifiedLeaderboard("e10",
+#if !UNITY_EDITOR && (UNITY_IOS || UNITY_TVOS)
+            ""
+#elif !UNITY_EDITOR && UNITY_ANDROID && CLOUDONCE_GOOGLE
+            "CgkIir-T-ugeEAIQFg"
+#else
+            "e10"
+#endif
+            );
+
+        public static UnifiedLeaderboard e10
+        {
+            get { return s_e10; }
         }
 
         public static string GetPlatformID(string internalId)
@@ -53,8 +323,26 @@ namespace CloudOnce
 
         private static readonly Dictionary<string, UnifiedLeaderboard> s_leaderboardDictionary = new Dictionary<string, UnifiedLeaderboard>
         {
-            { "Leaderboard", s_leaderboard },
-            { "AnotherLeaderboard", s_anotherLeaderboard },
+            { "c1", s_c1 },
+            { "c2", s_c2 },
+            { "c3", s_c3 },
+            { "c4", s_c4 },
+            { "c5", s_c5 },
+            { "c6", s_c6 },
+            { "c7", s_c7 },
+            { "c8", s_c8 },
+            { "c9", s_c9 },
+            { "c10", s_c10 },
+            { "e1", s_e1 },
+            { "e2", s_e2 },
+            { "e3", s_e3 },
+            { "e4", s_e4 },
+            { "e5", s_e5 },
+            { "e6", s_e6 },
+            { "e7", s_e7 },
+            { "e8", s_e8 },
+            { "e9", s_e9 },
+            { "e10", s_e10 },
         };
     }
 }
